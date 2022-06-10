@@ -1,0 +1,439 @@
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbercuts</title>
+    
+</head>
+<body style="background-color: #d2d2d2;">
+    <!--navbar-->
+    <nav class="navbar-xl">
+        <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+            <div class="container-fluid">
+              <a class="navbar-brand fw-bold fs-3" style="color: rgba(208,144,44,255)" href="#">BarberCuts</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link text-dark fs-5" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark fs-5" href="#services&pricing">Services & Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark fs-5" href="#barbers">Barbers</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark fs-5" href="#book">Book</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark fs-5" href="#contact_us">Contact us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </nav>
+    <h2 class="text-center mt-3 mb-5" style="color:#000000">Choose from a variety of barbers and hair dressers. Book<br>your cut appointement and share you experience<br>with others.</h2>
+
+    <!--photo de home page-->
+    <section id="home">
+        <div class="container-xxg mx-5 text-center">
+            <div class="row">
+              <div class="col my-5">
+                <img src="mens-service.jpg" class="img-fluid img-thumbnail" alt="hairsalon2">
+              </div>
+              <div class="col my-5">
+                <img src="mak-hair-blog.jpg" class="img-fluid img-thumbnail" alt="hairsalon1">
+              </div>
+              <div class="col my-5">
+                <img src="hairsalon1.jpeg" class="img-fluid img-thumbnail" alt="hairsalon3">
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <p class="text-center fs-3" style="color:#000000">"  Great hair doesn't happen by  "<br> chance but it happens by <br> Appointement</p>
+    <br><br><br><br>
+    
+    <!--pricing-->
+    <div class="album py-3 bg-secondary">
+        <br><br><br><br>
+        <section id="services&pricing">
+        <h1 class="text-center mb-4">Services and Pricing:</h1>
+        <div class="container">
+    
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="haircut.jpg" class="img-fluid" alt="haircut">
+        
+                    <div class="card-body">
+                    <p class="card-text text-center"><text class="fs-1 fw-bold">Haircut</text><small class="fs-6 fw-light ms-3 fst-italic">(45 mins)</small></p>
+                    
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                        <button type="button" onclick="document.getElementById('demo').innerHTML = 'Haircut $30'" class="btn ms-2 btn-sm btn-outline-secondary">
+                            Select service
+                        </button>
+                        </div>
+                        <text class="text-end fw-bold fs-4"> $30 </text>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                    <img src="beardshaving.jpg" class="img-fluid" alt="beardshaving">
+                <div class="card-body">
+                  <p class="card-text text-center"><text class="fs-1 fw-bold">Beard Shave</text><small class="fs-6 fw-light ms-3 fst-italic">(15 mins)</small></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <button type="button" onclick="document.getElementById('demo').innerHTML = 'Beard Shave $10'" class="btn ms-2 btn-sm btn-outline-secondary">Select service</button>
+                    </div>
+                    <text class="text-end fw-bold fs-4"> $10 </text>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                    <img src="beardtrim.jpg" class="img-fluid" alt="beardtrim">
+                <div class="card-body">
+                  <p class="card-text text-center"><text class="fs-1 fw-bold">Haircut+Beard</text><small class="fs-6 fw-light ms-3 fst-italic">(55 mins)</small></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <button type="button" onclick="document.getElementById('demo').innerHTML = 'Haircut+Beard $35'" class="btn ms-2 btn-sm btn-outline-secondary">Select service</button>
+                    </div>
+                    <text class="text-end fw-bold fs-4"> $35 </text>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="hairdye.jpg" class="img-fluid" alt="hairdye">
+                <div class="card-body">
+                  <p class="card-text text-center"><text class="fs-1 fw-bold">Hair Dye</text><small class="fs-6 fw-light ms-3 fst-italic">(120 mins)</small></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <button type="button" onclick="document.getElementById('demo').innerHTML = 'Hair Dye $80'" class="btn ms-2 btn-sm btn-outline-secondary">Select service</button>
+                    </div>
+                    <text class="text-end fw-bold fs-4"> $80 </text>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="facial_treatment.jpg" class="img-fluid" alt="facial_treatment">
+                <div class="card-body">
+                  <p class="card-text text-center"><text class="fs-1 fw-bold">Facial</text><small class="fs-6 fw-light ms-3 fst-italic">(60 mins)</small></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <button type="button" onclick="document.getElementById('demo').innerHTML = 'Facial $40'" class="btn ms-2 btn-sm btn-outline-secondary">Select service</button>
+                    </div>
+                    <text class="text-end fw-bold fs-4"> $40 </text>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                    <img src="kids_haircut.jpg" class="img-fluid" alt="kids_haircut">
+                <div class="card-body">
+                  <p class="card-text text-center"><text class="fs-1 fw-bold">Kids</text><small class="fs-6 fw-light ms-3 fst-italic">(45 mins)</small></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <button type="button" onclick="document.getElementById('demo').innerHTML = 'Kids $20'" class="btn ms-2 btn-sm btn-outline-secondary">Select service</button>
+                    </div>
+                    <text class="text-end fw-bold fs-4"> $25 </text>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br><br><br><br><br>
+      </div>
+    </section>
+    
+    <br><br><br><br><br>
+
+    <!--barbers-->
+    <section id="barbers">
+        <p class="text-center fs-2 my-b" style="color:#000000">Pick the salon you would like to <br> book your appointement</p>
+        <div class="container-sxl">
+            <div class="row justify-content-center mb-3 mt-5">
+                <div class="col-lg-4">
+                    <input type="Salon" class="form-control" id="salon" placeholder="Enter salon name">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!--Paulo's barbershop-->
+    <div class="container" style="height: 180px;">
+        <small class="ms-5 fst-italic text-primary">Showing hair salons near you...</small>
+        <div class="row ms-5" style="height: 180px;">
+            <div class="col-sm-2 border border-dark border-end-0 ps-3 py-3 pe-0 me-0">
+                <img src="paulo_pic.jpg" style="height: 100%; width:100% ;" alt="paulo_pic">
+            </div>
+            <div class="col-sm-4 border border-dark border-start-0 border-end-0 me-0 ps-4 pe-0 p-3">
+                Name: Paulo’s BarberShop <br><br>
+                Address: 286 St. Patrick St, Ottawa, ON K1N 5K5 <br><br>
+                Phone number: (613) 317-2364 <br><br>
+                Opening hours: 9am - 6pm
+            </div>
+            <div class="col-sm-2 ms-0 me-1 border border-dark border-start-0 ps-4">
+                <br><br><br>
+                <button type="button" onclick="document.getElementById('x').innerHTML = 'Paulo salon'" class="btn ms-2 btn-sm btn-outline-secondary fs-5 px-3">Select salon</button>
+            </div>
+            <div class="col-sm-3 border border-dark p-0 ms-1">
+                <a href="https://www.google.com/maps/place/Paulo's+Barber+Shop/@45.4312304,-75.6927295,18.25z/data=!4m9!1m2!2m1!1spaulo's!3m5!1s0x4cce04fd5501f387:0x7bb1ca8bec3884cd!8m2!3d45.4312806!4d-75.6916229!15sCgdwYXVsbydzWgkiB3BhdWxvJ3OSAQtiYXJiZXJfc2hvcJoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VSRE0yTnFhakIzUlJBQg">
+                    <img src="paulo.jpg" style="height: 100%; width:100% ;" alt="paulo">
+                </a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <!--Mario Cuts-->
+    <div class="container" style="height: 180px;">
+        <div class="row ms-5" style="height: 180px;">
+            <div class="col-sm-2 border border-dark border-end-0 ps-3 py-3 pe-0 me-0">
+                <img src="mario_cuts_pic.jpg" style="height: 100%; width:100% ;" alt="paulo_pic">
+            </div>
+            <div class="col-sm-4 border border-dark border-start-0 border-end-0 me-0 ps-4 pe-0 p-3">
+                Name: Mario Cuts <br><br>
+                Address: 235 Laurier Ave. E Unit A, Ottawa, ON K1N 6P1 <br><br>
+                Phone number: (613) 230-7777 <br><br>
+                Opening hours: 10am - 8pm
+            </div>
+            <div class="col-sm-2 ms-0 me-1 border border-dark border-start-0 ps-4">
+                <br><br><br>
+                <button type="button" onclick="document.getElementById('x').innerHTML = 'Mario Cuts'" class="btn ms-2 btn-sm btn-outline-secondary fs-5 px-3">Select salon</button>
+            </div>
+            <div class="col-sm-3 border border-dark p-0 ms-1">
+                <a href="https://www.google.com/maps/place/Mario+Cuts+Barbershop/@45.4243137,-75.685831,15z/data=!4m5!3m4!1s0x0:0x2f7f0d397acf5890!8m2!3d45.4261209!4d-75.6814966">
+                    <img src="mario_cuts.jpg" style="height: 100%; width:100% ;" alt="paulo">
+                </a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <!--Royal Scissors-->
+    <div class="container" style="height: 180px;">
+        <div class="row ms-5" style="height: 180px;">
+            <div class="col-sm-2 border border-dark border-end-0 ps-3 py-3 pe-0 me-0">
+                <img src="royal_scissors_pic.jpg" style="height: 100%; width:100% ;" alt="paulo_pic">
+            </div>
+            <div class="col-sm-4 border border-dark border-start-0 border-end-0 me-0 ps-4 pe-0 p-3">
+                Name: Royal Scissors <br><br>
+                Address: 554 Somerset St W, Ottawa, ON K1R 6A2 <br><br>
+                Phone number: (613) 421-0062 <br><br>
+                Opening hours: 10am - 7pm
+            </div>
+            <div class="col-sm-2 ms-0 me-1 border border-dark border-start-0 ps-4">
+                <br><br><br>
+                <button type="button" onclick="document.getElementById('x').innerHTML = 'Royal Scissors'" class="btn ms-2 btn-sm btn-outline-secondary fs-5 px-3">Select salon</button>
+            </div>
+            <div class="col-sm-3 border border-dark p-0 ms-1">
+                <a href="https://www.google.com/maps/place/Royal+Scissors+Barbershop/@45.4127998,-75.7044504,17z/data=!3m1!4b1!4m5!3m4!1s0x4cce044d5d281d85:0x5e20821c75a859ea!8m2!3d45.4127961!4d-75.7022564">
+                    <img src="royal_scissors.jpg" style="height: 100%; width:100% ;" alt="paulo">
+                </a>
+            </div>
+        </div>
+    </div>
+    </section>
+    
+
+    <br><br><br><br><br><br><br><br>
+
+    <!--Checkout-->
+    <section id="book" class="bg-secondary">
+    <div class="container">
+            <main>
+            <div class="py-5 text-center">
+                <h2>Book appointement</h2>
+                <p class="lead mt-2">Choose the kind of service you would like. Please enter your personal and billing information. Don't forget to review the booking <br> detail before comfirming it.</p>
+            </div>
+        
+            <div class="row g-5">
+                <div class="col-md-5 col-lg-4 order-md-last">
+                <h4 class="d-flex justify-content-between align-items-center mb-3">
+                    <span class="text-dark">Booking details</span>
+                </h4>
+                <ul class="list-group mb-3">
+
+                    <li class="list-group-item d-flex justify-content-between lh-sm">
+                    <div>
+                        <h6 class="my-0">Service:</h6>
+                        <small class="text-muted" id="demo"></small>
+                    </div>
+                    <button class="btn btn-secondary " type="button">
+                        <a class="text-white" href="#services&pricing">Change Service</a>
+                    </button>
+                    </li>
+
+                    <li class="list-group-item d-flex justify-content-between lh-sm">
+                    <div>
+                        <h6 class="my-0">Hair salon:</h6>
+                        <small class="text-muted" id="x"></small>
+                    </div>
+                    <button class="btn btn-secondary " type="button">
+                        <a class="text-white px-1 ps-2" href="#barbers">Change Salon</a>
+                    </button>
+                    </li>
+
+                    <li class="list-group-item d-flex justify-content-between lh-sm">
+                        <div class="col-12">
+                            <label for="date" class="form-label">Select date</label>
+                            <input type="date" class="form-control" id="date" placeholder="Enter date">
+                        </div>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between lh-sm">
+                        <div class="col-12">
+                            <label for="time" class="form-label">Select time</label>
+                            <input type="time" class="form-control" id="time" placeholder="Enter time">
+                        </div>
+                    </li>
+
+                </ul>
+        
+                <form class="card p-2">
+                    <button class="w-100 btn btn-primary btn-lg" type="button">
+                        <a class="text-white px-1 ps-2" href="#payment">Proceed to payment</a>
+                    </button>
+                </form>
+                </div>
+                <div class="col-md-7 col-lg-8">
+                <h4 class="mb-3">Personal information</h4>
+                <form class="needs-validation" novalidate>
+                    <div class="row g-3">
+                    <div class="col-sm-6">
+                        <label for="firstName" class="form-label">First name</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                    </div>
+        
+                    <div class="col-sm-6">
+                        <label for="lastName" class="form-label">Last name</label>
+                        <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                    </div>
+        
+                    <div class="col-12">
+                        <label for="email" class="form-label">Email </label>
+                        <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                    </div>
+        
+                    <div class="col-12">
+                        <label for="address" class="form-label">Phone number</label>
+                        <input type="text" class="form-control" id="address" placeholder="+1 (XXX)-XXXX" required>
+                    </div>
+        
+                    <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="save-info">
+                    <label class="form-check-label" for="save-info">Save this information for next time</label>
+                    </div>
+        
+                    <hr class="my-4">
+                    
+                    <section id="payment">
+                    <h4 class="mb-3">Payment</h4>
+        
+                    <div class="my-3">
+                    <div class="form-check">
+                        <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
+                        <label class="form-check-label" for="credit">Credit card</label>
+                    </div>
+                    <div class="form-check">
+                        <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
+                        <label class="form-check-label" for="debit">Debit card</label>
+                    </div>
+                    <div class="form-check">
+                        <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
+                        <label class="form-check-label" for="paypal">PayPal</label>
+                    </div>
+                    <div class="form-check">
+                        <input id="shop" name="paymentMethod" type="radio" class="form-check-input" required>
+                        <label class="form-check-label" for="shop">Pay in shop</label>
+                    </div>
+                    </div>
+        
+                    <div class="row gy-3">
+                    <div class="col-md-6">
+                        <label for="cc-name" class="form-label">Name on card</label>
+                        <input type="text" class="form-control" id="cc-name" placeholder="" required>
+                        <small class="text-muted">Full name as displayed on card</small>
+                    </div>
+        
+                    <div class="col-md-6">
+                        <label for="cc-number" class="form-label">Credit card number</label>
+                        <input type="text" class="form-control" id="cc-number" placeholder="" required>
+                    </div>
+        
+                    <div class="col-md-3">
+                        <label for="cc-expiration" class="form-label">Expiration</label>
+                        <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+                    </div>
+        
+                    <div class="col-md-3">
+                        <label for="cc-cvv" class="form-label">CVV</label>
+                        <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+                    </div>
+                    </div>
+        
+                    <hr class="my-4">
+        
+                    <button class="w-100 btn btn-primary btn-lg" onclick="document.getElementById('y').innerHTML = 'An email comfirmation with the booking details has been sent to you'" type="submit">Continue to checkout</button>
+                    <small id="y"></small>
+                    </section>
+
+                </form>
+                </div>
+            </div>
+            </main>
+        </div>
+    </section>
+    <br><br><br><br><br><br><br><br>
+
+
+    <section id="contact_us">
+        <div class="contrainer mx-auto border border-dark" style="width: 70%;">
+            <h1 class="text-center fw-bold display-3">About us:</h1>
+            <div class="text-center fs-4">Our headquarter is located in: 40 Baton Ct, Kanata, ON K2L 4C8</div>
+            <div class="container border p-0 mx-auto mb-5"style="width: 90%; height: 70%;">
+                <a href="https://www.google.com/maps/place/40+Baton+Ct,+Kanata,+ON+K2L+4C8/@45.3086968,-75.8996117,17z/data=!4m5!3m4!1s0x4ccdff8ea420afeb:0xaa6c59501c7c883!8m2!3d45.3088175!4d-75.8995044"><img src="location.jpg" style="height: 100%; width:100%" alt="headquarter"></a>
+            </div>
+            <div class="container p-0 mx-auto mb-5"style="width: 90%;">
+                <div class="row mb-4">
+                    <div class="col-sm-7 ps-5">
+                        Contact information: <br><br>
+                        Email address: barbercuts@gmail.com <br>
+                        Phone number: (613) 748-8907
+                    </div>
+                    <div class="col-sm-4">
+                        Hours of work:<br><br>
+                        8am - 4pm (closed on sunday)
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    
+    
+    <div><br><br><br><br><br><br><br><br><br><br><br></div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
